@@ -1,54 +1,120 @@
-.mainForm{
+.mainForm {
   border: 2px;
-  border-radius:5px ;
+  border-radius: 5px;
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   width: 20%;
   border: 2px solid pink;
-  border-radius:5px ;
+  border-radius: 5px;
   padding: 30px;
   gap: 10px;
+  background-color: pink;
 }
-.mainForm input{
+.mainForm input {
   width: 90%;
-  padding: .4rem 1rem;
+  padding: 0.4rem 1rem;
 }
-.mainForm button{
+.mainForm button {
   width: 30%;
-  justify-self: end; 
+  justify-self: end;
 }
-.formConatiner{
-  
+.formConatiner {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
+  /* background-color: pink; */
 }
 
-input[value="hide"]{
+input[value="hide"] {
   background-color: red;
   height: 1.7rem;
   width: 10%;
   border-radius: 4px;
   color: azure;
 }
-input[value="show"]{
+input[value="show"] {
   background-color: rgb(53, 53, 229);
   height: 1.7rem;
   width: 10%;
   border-radius: 4px;
   color: azure;
-
-
 }
-.dateContainer{
-  background-color: blue;
+.dateContainer {
+  background-color: rgb(180, 167, 164);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 2px;
   margin: 2px;
+  width: 50%;
+  gap: 20px;
+  border-radius: 5px;
+  /* color: white; */
 }
-.dateContainer p{
-  background-color: red;
+.dateContainer p {
+  word-break: break-all;
+  font-weight: 600;
+  font-size: 1.3rem;
+ 
+}
+.modelContainer {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(221, 27, 17);
+}
+.modelContainer h1 {
+  background-color: aqua;
+  height: 10rem;
+  width: 40%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outputConatiner {
+  background: pink;
+  margin: 3px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: rgb(122, 112, 112);
+  font-size: 1rem;
+  margin-left: 6%; 
+  margin-right: 6%;
+  padding-left: 3%;
+}
+.outputConatiner p{
+  font-size: 1em;
+}
+.submitBtn{
+  border: 1px solid rgb(52, 234, 52);
+  background-color: rgb(59, 230, 59);
+  color: whitesmoke;
+  font-weight:800;
+  padding: 3px;
+  border-radius: 3px;
+}
+.optionAll{
+  color: rgb(82, 59, 59);
+  padding-left: 1rem;
+  display: flex;
+  align-self: center;
+  border: 2px solid rgb(193, 211, 55);
+  margin-top: 10vh;
+background-color: rgb(214, 217, 41);
+  
+}
+.selectOption{
+  display: flex;
+  flex-direction: column;
 }
